@@ -1,5 +1,7 @@
 package src.Model;
-// Importaciones
+
+// Seccion de Importaciones
+import java.util.List;
 import java.time.LocalDate;
 
 public class Entrenador
@@ -9,11 +11,11 @@ public class Entrenador
     private String nombre;
     private LocalDate fechaNacimiento;
     private String lugarNacimiento;
-    private Medallas[] medallas;
-    private Pokemon[] pokedex;
+    private List<Medallas> medallas;
+    private List<Pokemon> pokedex;
 
     // Constructor : Metodo para crear objetos de la clase Entrenador.
-    public Entrenador(int id, String nombre, LocalDate fechaNacimiento, String lugarNacimiento, Medallas[] medallas, Pokemon[] pokedex)
+    public Entrenador(int id, String nombre, LocalDate fechaNacimiento, String lugarNacimiento, List<Medallas> medallas, List<Pokemon> pokedex)
     {
         this.id = id;
         this.nombre = nombre;
@@ -55,22 +57,22 @@ public class Entrenador
         this.lugarNacimiento = lugarNacimiento;
     }
 
-    public Medallas[] getMedallas()
+    public List<Medallas> getMedallas()
     {
         return medallas;
     }
 
-    public void setMedallas(Medallas[] medallas)
+    public void setMedallas(List<Medallas> medallas)
     {
         this.medallas = medallas;
     }
 
-    public Pokemon[] getPokedex()
+    public List<Pokemon> getPokedex()
     {
         return pokedex;
     }
 
-    public void setPokedex(Pokemon[] pokedex)
+    public void setPokedex(List<Pokemon> pokedex)
     {
         this.pokedex = pokedex;
     }

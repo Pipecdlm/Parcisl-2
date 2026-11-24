@@ -1,17 +1,20 @@
 package src.Model;
 
+// Seccion de Importaciones
+import java.util.List;
+
 public class Pokemon
 {
     // Atributos : Campos de los datos del pokemon.
     private int id;
     private String nombre;
-    private TiposPokemon[] tiposPokemon;
+    private List<TiposPokemon> tiposPokemon;
     private int nivel;
     private int vida;
     private boolean capturado;
 
     // Metodo Constructor : Invocado al crear un objeto de la clase.
-    public Pokemon(int id, String nombre, TiposPokemon[] tiposPokemon, int nivel, int vida, boolean capturado)
+    public Pokemon(int id, String nombre, List<TiposPokemon> tiposPokemon, int nivel, int vida, boolean capturado)
     {
         this.id = id;
         this.nombre = nombre;
@@ -38,12 +41,12 @@ public class Pokemon
         this.nombre = nombre;
     }
 
-    public TiposPokemon[] getTiposPokemon()
+    public List<TiposPokemon> getTiposPokemon()
     {
         return tiposPokemon;
     }
 
-    public void setTiposPokemon(TiposPokemon[] tiposPokemon)
+    public void setTiposPokemon(List<TiposPokemon> tiposPokemon)
     {
         this.tiposPokemon = tiposPokemon;
     }
