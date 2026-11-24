@@ -1,4 +1,4 @@
-package src.Model;
+package Model;
 
 // Seccion de Importaciones
 import java.util.List;
