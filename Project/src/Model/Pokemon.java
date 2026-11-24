@@ -22,4 +22,76 @@ public class Pokemon
         this.vida = vida;
         this.capturado = capturado;
     }
+
+    // Metodos Getter y Setter : Utilizados para traer atributos o configurarlos.
+
+    public int getId()
+    {
+        return id;
+    }
+
+    public void setId(int id)
+    {
+        this.id = id;
+    }
+
+    public String getNombre()
+    {
+        return nombre;
+    }
+
+    public void setNombre(String nombre)
+    {
+        this.nombre = nombre;
+    }
+
+    public Entrenador getEntrenador()
+    {
+        return entrenador;
+    }
+
+    public void setEntrenador(Entrenador entrenador)
+    {
+        this.entrenador = entrenador;
+    }
+
+    public TiposPokemon[] getTiposPokemon()
+    {
+        return tiposPokemon;
+    }
+
+    public void setTiposPokemon(TiposPokemon[] tiposPokemon)
+    {
+        this.tiposPokemon = tiposPokemon;
+    }
+
+    public int getNivel()
+    {
+        return nivel;
+    }
+
+    public void setNivel(int nivel)
+    {
+        this.nivel = nivel;
+    }
+
+    public int getVida()
+    {
+        return vida;
+    }
+
+    public void setVida(int vida)
+    {
+        this.vida = vida;
+    }
+
+    public boolean isCapturado()
+    {
+        return capturado;
+    }
+
+    public void setCapturado(boolean capturado)
+    {
+        this.capturado = capturado;
+    }
 }
