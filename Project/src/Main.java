@@ -1,10 +1,9 @@
-import java.sql.*;
+import Model.Database;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        try (Connection c = DriverManager.getConnection("jdbc:sqlite:prueba.db")) {
-            System.out.println("Conectado: " + c.getMetaData().getDatabaseProductVersion());
-        }
+        Database.init();
+        System.out.println("Base de datos lista");
     }
 }
 
