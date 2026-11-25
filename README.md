@@ -1,7 +1,7 @@
 # Pokedex (BD y GUI)
 El **Pokemon (BD y GUI) Project** tiene el objetivo de poner en practica los conocimietos adquiridos sobre el curso de *Programacion Orientada a Objetos* de la *Universidad Distrital Francisco Jose de Caldas* enfocado en demostrar el conocimiento de persistencia con un motor de bases de datos **SQLite** y una **Interfaz Grafica de Usuario**.
 
-![POKEDEX](https://bblmw.com)
+![POKEDEX](img/pokedex.jpeg)
 
 
 ## Tecnologias
